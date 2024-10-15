@@ -1,7 +1,10 @@
 {
-  "name": "mongoose-better-schemas",
+  "name": "@sedarasecurity/mongoose-better-schemas",
   "version": "1.0.0",
   "description": "Streamline TypeScript schema definitions",
+  "workspaces": [
+    "./"
+  ],
   "exports": {
     ".": {
       "import": {
@@ -67,12 +70,13 @@
     "eslint-plugin-import": "^2.26.0",
     "husky": "^8.0.1",
     "jest": "^29.2.1",
+    "lerna": "^8.1.8",
     "semantic-release": "^19.0.5",
     "ts-jest": "^29.0.3",
-    "typescript": "^4.8.2"
+    "typescript": ">=4.8.2"
   },
   "dependencies": {
     "mongoose": "^6.11.1",
-    "ts-toolbelt": "^9.6.0"
+    "ts-toolbelt": ">=9.6.0"
   }
 }
