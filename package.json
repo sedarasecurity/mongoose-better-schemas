@@ -43,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/meanguppy/mongoose-better-schemas.git"
+    "url": "https://github.com/sedarasecurity/mongoose-better-schemas.git"
   },
   "keywords": [
     "mongoose",
